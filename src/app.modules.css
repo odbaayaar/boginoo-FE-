@@ -1,0 +1,102 @@
+.Signup-Email{
+    height: 44px;
+    width: 381px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 6px rgb(199, 191, 191);
+}
+.Signup-Password{
+    border-radius: 20px;
+    border: 1px solid gray;
+    height: 44px;
+    width: 381px;
+    box-shadow: 0px 0px 6px rgb(199, 191, 191);
+}
+.S-Cont{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.H-Cont{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@font-face {
+    font-family: Lobster;
+    src: url("/public/Lobster-Regular.ttf");
+}
+.Lobster{
+    font-family: Lobster;
+    color: #02B589;
+    font-size: 56px;
+    margin: 25px;
+}
+.nav{
+    height: 130px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.to-sign{
+    border-radius: 20px;
+    border: none;
+    background-color: #02B589;
+    color: white;
+    height: 44px;
+    width: 183px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 19px;
+    margin-right: 75px;
+}
+.to-sign:hover{
+    opacity: 50%;
+}
+.shortener{
+    width: 582px;
+    height: 45px;
+    border-radius: 20px;
+    box-shadow: 5px 7px 6px rgb(199, 191, 191);
+    border: 1px solid gray;
+}
+.shortener-confirm{
+    width: 193px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    box-shadow: 5px 7px 6px rgb(199, 191, 191);
+    background-color: #02B589;
+    color: white;
+    font-size: 20px;
+    margin-left: 35px;
+}
+.Signup-Password2{
+    border-radius: 20px;
+    border: 1px solid gray;
+    height: 44px;
+    width: 381px;
+    box-shadow: 0px 0px 6px rgb(199, 191, 191);   
+}
+.sign-up{
+    margin-top: 25px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    height: 44px;
+    width: 381px;
+    background-color: #02B589;
+    color: white;
+}
+.rember{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border-color: red;
+}
